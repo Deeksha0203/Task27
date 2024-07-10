@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.5em;
+    gap: 20px;
+    color: white;
+}
+
+.card{
+    padding: 80px;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
